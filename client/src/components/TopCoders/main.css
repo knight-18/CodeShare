@@ -1,0 +1,32 @@
+.coder__cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 35vh;
+    width: 100%;
+    flex: 1 1 1 1;
+}
+.coder__card{
+    height: 35vh;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.coder__cardimg{
+    background-image: url("https://yt3.ggpht.com/ytc/AAUvwng8pSXOY4YZbcXPT7oLVpHDdUU1yOU5YQlcD6NFrg=s900-c-k-c0x00ffffff-no-rj");
+    height: 60%;
+    margin-top: 2vh ;
+    width: 60%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.coder__card h3{
+    margin-top: 10%;
+}
