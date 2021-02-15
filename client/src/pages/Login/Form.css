@@ -1,0 +1,155 @@
+.form-container {
+  margin: 0 auto;
+  width: 40%;
+  position: relative;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/*.close-btn {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  font-size: 1.5rem;
+  z-index: 1;
+  color: #fff;
+  cursor: pointer;
+}*/
+
+.form-success {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 80px;
+  color: #000;
+}
+
+.form-content-signup {
+  /*border-radius: 0 10px 10px 0;
+  position: relative;*/
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*.form h1 {
+  font-size: 1rem;
+  text-align: start;
+  width: 80%;
+  margin-bottom: 1rem;
+  color: #fff;
+}*/
+
+.form-inputs {
+  margin-bottom: 1.5rem;
+  width: 80%;
+  border-bottom: solid 1px #242425;
+}
+
+.form-inputs p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #f10000;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 1rem;
+  color: rgb(7, 7, 41);
+}
+
+.form-input {
+  display: block;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  border: none;
+}
+
+.form-input::placeholder {
+  color: #595959;
+  font-size: 12px;
+}
+
+.forgot-password {
+  width: 80%;
+  font-size: 1rem;
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: rgb(7, 7, 41);
+}
+
+.form-input-btn {
+  width: 25%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgb(3, 15, 73) 0%, rgb(5, 27, 87) 100%);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.form-input-btn:hover {
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(0, 64, 184) 0%, rgb(0, 52, 141) 100%);
+  transition: all 0.4s ease-out;
+}
+
+.connect {
+  margin-top: 30px;
+  display: flex;
+  font-size: 0.9rem;
+  color: rgb(7, 7, 41);
+  align-items: center;
+}
+
+.connect-border {
+  width: 50px;
+  border-top: solid 1px rgb(7, 7, 41);
+  margin: 10px;
+}
+
+.connect-link {
+  display: flex;
+  margin: 5px;
+  align-items: center;
+}
+
+.connect-link-logo {
+  margin: 8px;
+}
+
+.form-input-login {
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 10px;
+  color: #595959;
+  width: 80%;
+  text-align: center;
+}
+
+.form-input-login a {
+  text-decoration: none;
+  color: #010e31;
+}
