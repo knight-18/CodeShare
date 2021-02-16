@@ -52,9 +52,9 @@ const FormSignup = ({ submitForm }) => {
           />
           {errors.password2 && <p>{errors.password2}</p>}
         </div>
-        <div className="form-input-btn" type="submit">
+        <Link to={"/login"} className="form-input-btn" type="submit">
           Sign Up
-        </div>
+        </Link>
 
         <div className="connect">
           <div className="connect-border"></div>

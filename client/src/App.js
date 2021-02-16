@@ -19,7 +19,7 @@ function App() {
         <Redirect from="/" exact to="/signup" />
         {/* <Redirect to="/not-found" /> */}
       </Switch>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

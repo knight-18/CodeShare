@@ -45,9 +45,9 @@ const FormLogin = ({ submitForm }) => {
           <a href="#">Forgot Password?</a>
         </div>
 
-        <div className="form-input-btn" type="submit">
+        <Link to={"/home"} className="form-input-btn" type="submit">
           Login
-        </div>
+        </Link>
         <span className="form-input-login">
           Don't have an account? <a href="#">Sign Up</a>
         </span>
